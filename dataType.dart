@@ -4,6 +4,9 @@ void main() {
 
   TestList l1 = TestList();
   l1.showList();
+
+  TestMap t1 = TestMap();
+  t1.showMap();
 }
 
 class Person {
@@ -34,5 +37,16 @@ class TestList {
     print(mixedlist);
     mixedlist.removeAt(1);
     print(mixedlist);
+  }
+}
+
+class TestMap {
+  var student = {"name": "Jon", "sex": "male"};
+
+  void showMap() {
+    print(student.values);
+    student["ID"] = "2020";
+    student.addAll({"dep": "CSE", "batch": "7"});
+    print(student["name"]);
   }
 }
