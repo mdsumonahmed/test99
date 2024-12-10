@@ -6,4 +6,6 @@ void main() {
   print(name);
   print(a + b);
   print("change name");
+  print(a + b);
+  print("change name");
 }
