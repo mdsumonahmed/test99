@@ -3,4 +3,5 @@ void main() {
   const int b = 15;
 
   print(a + b);
+  const name = "Akama";
 }
