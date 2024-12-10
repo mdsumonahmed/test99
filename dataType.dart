@@ -3,8 +3,7 @@ void main() {
   const int b = 15;
   const name = "Aag";
 
-  // message
-  print("Name is: ");
+  
   print(name);
   print(a + b);
 }
