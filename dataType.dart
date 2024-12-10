@@ -3,7 +3,6 @@ void main() {
   const int b = 15;
   const name = "Aag";
 
-  
   print(name);
   print(a + b);
 }
