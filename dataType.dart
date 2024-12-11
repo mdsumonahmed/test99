@@ -7,6 +7,11 @@ void main() {
 
   TestMap t1 = TestMap();
   t1.showMap();
+
+  TestLoop loop = TestLoop();
+  loop.forloop();
+  loop.forinloop();
+  loop.whileloop();
 }
 
 class Person {
@@ -48,5 +53,29 @@ class TestMap {
     student["ID"] = "2020";
     student.addAll({"dep": "CSE", "batch": "7"});
     print(student["name"]);
+  }
+}
+
+class TestLoop {
+  var length = 5;
+
+  void forloop() {
+    for (int i = length; i >= 1; i--) {
+      print(i);
+    }
+  }
+
+  void forinloop() {
+    var list = ["name", "ID", "Dep", "Batch"];
+    for (var student in list) {
+      print(student);
+    }
+  }
+
+  void whileloop() {
+    while (length >= 1) {
+      print(length);
+      length--;
+    }
   }
 }
