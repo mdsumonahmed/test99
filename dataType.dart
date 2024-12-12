@@ -1,7 +1,11 @@
 import 'loop.dart';
 import 'userInput.dart';
 
-void main() {}
+void main() {
+  UserInput input = UserInput();
+  input.concatenation();
+  //input.userInput();
+}
 
 class Person {
   String? name, sex;
