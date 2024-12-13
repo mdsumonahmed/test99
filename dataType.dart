@@ -1,10 +1,15 @@
 import 'loop.dart';
 import 'userInput.dart';
+import 'method_constructor.dart';
 
 void main() {
-  UserInput input = UserInput();
-  input.concatenation();
-  //input.userInput();
+  MethodConstructor p1 = MethodConstructor();
+  p1.showData();
+  //p1.addData("devid", "male", 30);
+  p1.name = "Sumon";
+  p1.sex = "male";
+  p1.age = 27;
+  p1.showData();
 }
 
 class Person {
