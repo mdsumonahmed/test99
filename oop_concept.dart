@@ -27,11 +27,12 @@ class Sub extends Super {
     print("Super from sub class");
   }
 
-  Sub() : super("calls from sub class") {
+  Sub() : super("") {
     print("Sub class");
   }
 }
 
 void main() {
+  //Super sup = Super("Sumon");
   Sub sub = Sub();
 }
