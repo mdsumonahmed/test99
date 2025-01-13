@@ -32,7 +32,24 @@ class Sub extends Super {
   }
 }
 
+// polymorphism
+
+class Human {
+  run() {
+    print("Human is running");
+  }
+}
+
+class Man extends Human {
+  @override
+  run() {
+    print("The boy is running");
+  }
+}
+
 void main() {
   //Super sup = Super("Sumon");
-  Sub sub = Sub();
+  //Sub sub = Sub();
+  Man man = Man();
+  man.run();
 }
