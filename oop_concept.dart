@@ -46,10 +46,3 @@ class Man extends Human {
     print("The boy is running");
   }
 }
-
-void main() {
-  //Super sup = Super("Sumon");
-  //Sub sub = Sub();
-  Man man = Man();
-  man.run();
-}
