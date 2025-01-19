@@ -29,7 +29,7 @@ class Student {
   }
 }
 
-void main() {
+/*void main() {
   Student std = new Student();
   std.stdName = "John";
   std.branch = "Computer Science";
@@ -38,4 +38,5 @@ void main() {
   print("The student name is ${std.std_name}");
   print("The student branch is ${std.std_branch}");
   print("The student age is ${std.stdAge}");
-}
+}*/
+
