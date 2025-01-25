@@ -22,8 +22,9 @@ class Engineer implements Employee1, Employee2 {
   }
 }
 
-void main() {
+/*void main() {
   Engineer engineer = new Engineer();
   engineer.display1();
   engineer.display2();
-}
+}*/
+
